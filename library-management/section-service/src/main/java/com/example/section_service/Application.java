@@ -1,0 +1,11 @@
+package com.example.section_service;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class Application {
+public static void main(String[] args) {
+gApplication.run(Application.class, args);
+}
+}

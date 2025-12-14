@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://root:example@localhost:27017/library?authSource=admin
+server:
+  port: 8083
+app:
+  jwt:
+    secret: "ChangeThisSecretToAReal256BitKeyChangeThisSecret"
+    expirationSeconds: 36000
